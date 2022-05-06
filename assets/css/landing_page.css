@@ -223,7 +223,7 @@ header {
 ==========================*/
 .main-img {
   position: relative;
-  background-image: url("../images/landing-page/home.jpg");
+  background-image: url("../images/home.jpg");
   height: 93vh;
   width: 100%;
   background-position: center;
