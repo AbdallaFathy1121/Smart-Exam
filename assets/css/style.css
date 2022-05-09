@@ -9,9 +9,14 @@ body {
     color: #ff4c3b !important;
 }
 
-.card {
+.subjects .card {
     border: none;
     box-shadow: 0 0 10px #cccccc;
+    transition: all .4s;
+}
+
+.subjects .card:hover {
+    transform: translateY(-4px);
 }
 
 .subjects .card .img-box {
@@ -70,7 +75,7 @@ body {
 }
 
 @media (max-width: 992px) {
-    .card-group {
+    .subjects .card-group {
         flex-direction: column;
     }
 }
@@ -195,3 +200,26 @@ body {
 }
 
 /* End CopyRight */
+/* ======================================== */
+/* Start Exam */
+.exam .card-header {
+    font-size: 22px;
+}
+
+@media (max-width: 576px) {
+    .exam .card-header {
+        font-size: 16px;
+    }
+    .exam .card-body div {
+        font-size: 14px;
+    }
+}
+
+.exam input[type='radio'] {
+    outline: none;
+}
+
+
+
+/* End Exam */
+/* ======================================== */
