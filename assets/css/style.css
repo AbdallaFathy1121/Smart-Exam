@@ -219,7 +219,20 @@ body {
     outline: none;
 }
 
-
-
 /* End Exam */
 /* ======================================== */
+
+.profile .card-header {
+    font-size: 22px;
+}
+
+.profile .view {
+    background-color: #ffe4c4;
+    padding: 9px 12px;
+    border-radius: 6px;
+}
+
+.profile td span {
+    color: #ff4c3b;
+    font-size: 20px;
+}
